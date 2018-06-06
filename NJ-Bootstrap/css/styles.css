@@ -1,0 +1,316 @@
+/*===========================General Styling==========================*/
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font: 600;
+}
+
+.font {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+/*===========================Navigation==========================*/
+
+
+
+.nj-pic {
+    width: 100px;
+}
+
+.navbar-toggler {
+    border: 1px solid #000 !important;
+}
+
+
+/*===========================Main Content==========================*/
+
+/********** Jumbotron Start **********/
+
+
+.nj-guide {
+    width: 200px;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.jumbotext {
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 1em;
+    font-size: 20px;
+}
+
+
+/********** Jumbotron End **********/
+
+/********** Banners Start **********/
+
+.bannertext {
+    color: #fff;
+    text-align: center;
+    font-size: 1.6em;
+    padding-top: 2em;
+}
+
+#banner1 {
+    background: url('../images/sunflowers-768.png') no-repeat;
+    height: 511px;
+}
+
+#banner2 {
+    background: url('../images/beach-768.jpg') no-repeat;
+    height: 480px;
+}
+
+
+#banner3 {
+    background: url('../images/ac-night-768.jpg') no-repeat;
+    height: 509px;
+}
+
+
+#banner4 {
+    background: url('../images/roadmap-768.jpg') no-repeat;
+    height: 512px;
+    opacity: .2;
+    z-index: -2;
+    
+}
+
+.banner4text {
+    text-align: center;
+    height: 512px;
+    font-size: 1.6em;
+    padding-top: 2em;
+}
+
+.njlogo {
+    margin: 1em 0;
+}
+
+
+/********** Banners End **********/
+
+
+/********** Trip Banners Start **********/
+
+
+#trip1 {
+    background-color: rgb(24, 218, 218);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#trip2 {
+    background-color: rgb(166, 199, 47);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.guide2 {
+    width: 150px;
+}
+
+/********** Trip Banners End **********/
+
+/********** Carousel Start **********/
+
+.carousel-inner {
+    height: auto;
+}
+
+/********** Carousel End **********/
+
+/********** Footer Start **********/
+
+#pre-footer {
+    background: url("../images/pre-footer-background.gif");
+    color: #fff;
+    padding: 1em 1em;
+}
+
+.pf-text{
+    width: 515px;
+}
+
+.main-footer {
+    margin-top: 0 !important;
+    padding: .5em 0;
+    border-top: 1px solid #ffa949;
+    color: #fff;
+    background-color: rgb(15, 15, 15);
+}
+
+.main-footer ul{
+    list-style: none;
+}
+
+.footer-wording {
+    display: block;
+    padding: 0;
+}
+
+.social-media {
+    width: 2.8em;
+    padding: 0 .5em;
+    margin: 0;
+}
+
+/********** Footer End **********/
+
+/*===========================Media Queiries==========================*/
+
+/********** Small devices only **********/
+@media (min-width: 576px) {
+
+    .nj-pic {
+        width: 125px;
+    }
+    .nj-guide {
+        width: 250px;
+    }
+
+    .guide2 {
+        float: left;
+    }
+    
+}
+
+  /********** Medium devices only **********/
+@media (min-width: 768px){
+
+    .nj-pic {
+        width: 150px;
+    }
+
+    .jumbotext {
+        margin: 3em 6em 0 0;
+        font-size: 24px;
+    }
+
+    .font {
+        font-size: 26px;
+    }
+
+    #banner1 {
+        background: url("../images/sunflowers-992.png") no-repeat;
+    }
+
+    #banner2 {
+        background: url('../images/beach-992.jpg') no-repeat;
+        height: 620px;
+    }
+
+    #banner3 {
+        background: url('../images/ac-night-992.jpg') no-repeat;
+        height: 657px;
+    }
+
+    #banner4 {
+        background: url('../images/roadmap-992.jpg') no-repeat;
+        height: 662px;
+    }
+
+    #pre-footer {
+        padding: 1em 4em;
+    }
+
+    .sm-links {
+        float: left;
+    }
+
+    .partner-sites {
+        float: right;
+    }
+
+    .sub-footer {
+        margin-top: 12em;
+    }
+}
+
+  /********** Large devices only **********/
+@media (min-width: 992px) {
+    
+    .nj-guide {
+        width: 300px;
+    }
+
+    .jumbotext {
+        font-size: 34px;
+    }
+
+    .font {
+        font-size: 30px;
+    }
+
+    #banner1 {
+        background: url("../images/sunflowers-1200.png") no-repeat;
+    }
+
+    #banner2 {
+        background: url('../images/beach-1200.jpg') no-repeat;
+        height: 750px;
+    }
+
+    #banner3 {
+        background: url('../images/ac-night-1200.jpg') no-repeat;
+        height: 759px;
+    }
+
+    #banner4 {
+        background: url('../images/roadmap-1200.jpg') no-repeat;
+        height: 680px;
+    }  
+
+    #pre-footer {
+        padding: 1em 12em;
+    }
+}
+
+  /********** Extra Large devices only **********/
+@media (min-width: 1200px) {
+
+    .jumbotext {
+        font-size: 40px;
+    }
+
+   
+    #banner1 {
+        background: url("../images/sunflowers-full.png") no-repeat;
+        background-position: 50% 50%;
+        width: 100%;
+        height: 900px;
+        background-size: cover;
+    }
+
+    #banner2 {
+        background: url('../images/beach-full.jpg') no-repeat;
+        background-position: 50% 50%;
+        width: 100%;
+        height: 1250px;
+        background-size: cover;
+    }
+    
+
+    #banner3 {
+        background: url('../images/ac-night-full.png') no-repeat;
+        background-position: 50% 50%;
+        width: 100%;
+        height: 1200px;
+        background-size: cover;
+    }
+
+    #banner4 {
+        background: url('../images/roadmap-full.jpg') no-repeat;
+        background-position: 50% 50%;
+        height: 600px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    #pre-footer {
+        padding: 1em 16em;
+    }
+}
