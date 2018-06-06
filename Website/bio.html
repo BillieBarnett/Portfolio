@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Billie Barnett, Web Developer </title>
+    <meta name="Portfolio" content="An interactive guide in getting to know Billie Barnett and his capabilities.">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    
+    <div class="wrap">
+      <header class="main-header cf">
+        <div class="container">
+          <h4 class="title"><a href="index.html">Billie Barnett</a></h4>
+            
+          <dl class="dropdown">
+            <dt id="one-ddheader" onmouseover="ddMenu('one',1)" onmouseout="ddMenu('one',-1)">Menu</dt>
+            <dd id="one-ddcontent" onmouseover="cancelHide('one')" onmouseout="ddMenu('one',-1)">
+              <ul>
+                <li> <a href="index.html" class="selected nav-separator"> Home</a></li>
+                <li> <a href="portfolio.html" class="selected nav-separator"> Portfolio</a></li>
+                <li> <a href="bio.html" class="nav-separator"> Bio</a></li>
+                <li> <a href="contact.html" class="nav-separator">Contact</a></li>
+              </ul>
+            </dd>
+          </dl> <!--/Dropdown Nav Menu on small screens-->
+          
+          <ul class="main-nav link_color link_hover"  >
+            <li> <a href="index.html" class="selected"> Home</a></li>
+            <li> <a href="portfolio.html" class="selected"> Portfolio</a></li>
+            <li> <a href="bio.html"> Bio</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+          </ul> <!--/Nav Menu on Medium/Large screens-->
+        
+        </div> <!--/.container-->
+      </header>
+
+      <div class="container tp">
+        <div class="col">
+          <img src="Profile_Pic.jpg" alt="Photograph of Billie Barnett" class="me border">
+        </div>  
+        
+        <div class="bio cf">
+          <span > Hi, I'm Billie Barnett!! I am an aspiring Front End Web Developer. This is my design portfolio where I share all of my favorite work from a low level to high level degree of fidelity. When I am not designing or doing some development work I enjoy traveling with my significant other, working out, and learning new things. If you would like to friend me on Facebook and bounce some ideas, click the links down below. Can't wait to talk!        
+          </span>
+        </div>
+
+        <div class="learn link_color link_hover">
+          <p>Websites that helped me learn everything</p>
+          <section>
+            <a href="https://teamtreehouse.com/"><img src="Treehouse_Logo.jpg" alt="Treehouse.com" class="learn-pic" title="Team Treehouse"></a>
+            <a href="https://www.lynda.com/"><img src="Lynda.com_Logo.png" alt="Lynda.com" class="learn-pic" title="Lynda.com"></a>
+          </section>  
+        </div>
+          
+      </div> <!--/.container-->
+      
+    </div> <!--/.wrap-->
+    
+      <footer class="main-footer">
+        <h4 class="footer-wording"> &copy; Billie Barnett 2017 | Keep On Developing</h4>
+        <a href="https://www.facebook.com/billie.barnett.31"><img src="facebook-logo.bmp" alt="Facebook Logo" class="social-media" title="Facebook"></a>
+        <a href="https://twitter.com/_BlackThought_"><img src="twitter-logo.bmp" alt="Twitter Logo" class="social-media" title="Twitter"></a>
+      </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

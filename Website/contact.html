@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Billie Barnett, Web Developer </title>
+    <meta name="Portfolio" content="An interactive guide in getting to know Billie Barnett and his capabilities.">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="wrap">
+        <header class="main-header cf">
+            <div class="container">
+                <h4 class="title"><a href="index.html">Billie Barnett</a></h4>
+
+                <dl class="dropdown">
+                    <dt id="one-ddheader" onmouseover="ddMenu('one',1)" onmouseout="ddMenu('one',-1)">Menu</dt>
+                    <dd id="one-ddcontent" onmouseover="cancelHide('one')" onmouseout="ddMenu('one',-1)">
+                        <ul>
+                            <li> <a href="index.html" class="selected nav-separator"> Home</a></li>
+                            <li> <a href="portfolio.html" class="selected nav-separator"> Portfolio</a></li>
+                          
+                            <li> <a href="contact.html" class="nav-separator">Contact</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <!--/Dropdown Nav Menu on small screens-->
+
+                <ul class="main-nav link_color link_hover">
+                    <li> <a href="index.html" class="selected"> Home</a></li>
+                    <li> <a href="portfolio.html" class="selected"> Portfolio</a></li>
+                    <li> <a href="bio.html"> Bio</a></li>
+                    <li> <a href="contact.html">Contact</a></li>
+                </ul>
+                <!--/Nav Menu on Medium/Large screens-->
+
+            </div>
+            <!--/.container-->
+        </header>
+
+        <div class="container tp cf">
+
+            <div class="col_a col link_color link_hover">
+                <h3> General Information</h3>
+                <p> I am currently looking for new design work and new volunteer design opportunities as well. I can be reached by using any of the methods to the right. If you have any questions, please do not hesitate to ask.</p>
+                <p> I am constantly working on my craft through websites like Treehouse and Lynda.com. See you in the forums!</p>
+                <p> Please feel free to contact me using any method. Lets do some work! </p>
+                <a href="Resume.docx" class="resume border">Resume</a>
+            </div>
+            <!--/.primary-->
+
+            <div class="col_b col link_color link_hover">
+                <h3> Contact Information</h3>
+                <ul>
+                    <li> <a href="tel732-470-2264"> PH: 732-470-2264</a></li>
+                    <li> <a href="mailto:bbarnett724@gmail.com">Email: bbarnett724@gmail.com</a></li>
+                    <li><a href="https://www.facebook.com/billie.barnett.31">Facebook.com/Billie.Barnett</a> </li>
+                    <li><a href="https://twitter.com/_BlackThought_"> Twitter.com/Billie.Barnett</a></li>
+                    <li><a href="https://www.linkedin.com/in/billie-barnett-42113b114/">LinkedIn.com/Billie.Barnett</a></li>
+                </ul>
+            </div>
+            <!--/.secondary-->
+
+            <div class="col_c col link_color">
+
+                <h3>Contact Form (Coming Soon)</h3>
+                <form class="contact-form">
+                    <fieldset>
+
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="visitor_name"><br>
+
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" mail="user_email"><br>
+
+                        <label for="comment">Comment:</label><br>
+                        <textarea id="comment" name="user_comment"></textarea><br>
+
+                    </fieldset>
+
+                    <button type="submit" class="button">Submit</button>
+                    <input class="reset" type="reset" value="Reset">
+
+                </form>
+            </div>
+            <!--/.teriary-->
+
+        </div>
+        <!--/.container-->
+
+    </div>
+    <!--/.wrap-->
+
+    <footer class="main-footer">
+        <h4 class="footer-wording"> &copy; Billie Barnett 2017 | Keep On Developing</h4>
+        <a href="https://www.facebook.com/billie.barnett.31"><img src="fb-icon.png" alt="Facebook Logo" class="social-media" title="Facebook"></a>
+        <a href="https://twitter.com/_BlackThought_"><img src="twit-icon.png" alt="Twitter Logo" class="social-media" title="Twitter"></a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
