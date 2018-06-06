@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Billie Barnett, Web Developer </title>
+    <meta name="Portfolio" content="An interactive guide in getting to know Billie Barnett and his capabilities.">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="wrap">
+        <header class="main-header cf">
+            <div class="container">
+                <div class="top-head">
+                    <div>
+                        <img src="nike_logo.png" alt="Nike Swoosh" class="swoosh">
+                        <span><a href="#" class="login">Join/Log In<br> To NikePlus</a></span>
+                        <span><a href="#"><img src="shoppingcart.png" class="cart"></a></span>
+                    </div>
+                </div>
+
+                <div class="pre-header-grid cf">
+                    <div class="item1"><a href="#">NikePlus</a></div>
+                    <div class="item2"><a href="#">Jordan</a></div>
+                    <div class="item3"><a href="#">Hurley</a></div>
+                    <div class="item4"><a href="#">Converse</a></div>
+                </div>
+                <div class="shipping">
+                    <img src="shipping-box.png" alt="Shipping Container" class="ship"> Free Shipping and Much More as a NikePlus Member. <a href="#">Learn More</a>
+                </div>
+
+                <dl class="dropdown">
+                    <dt id="one-ddheader" onmouseover="ddMenu('one',1)" onmouseout="ddMenu('one',-1)">Menu</dt>
+                    <dd id="one-ddcontent" onmouseover="cancelHide('one')" onmouseout="ddMenu('one',-1)">
+                        <ul>
+                            <li> <a href="#" class="selected nav-separator"> Men</a></li>
+                            <li> <a href="#" class="selected nav-separator">Women</a></li>
+                            <li> <a href="#" class="nav-separator"> Boys</a></li>
+                            <li> <a href="#" class="nav-separator">Girls</a></li>
+                            <li> <a href="#" class="nav-separator">Icons</a></li>
+                            <li> <a href="#" class="nav-separator">Customize</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <!--/Dropdown Nav Menu on small screens-->
+            </div>
+            <!--/.container-->
+            <div class="search-container cf">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit"></button>
+                </form>
+            </div>
+        </header>
+
+        <div class="content-container">
+            <div class="b1">
+                <img src="cb-top25.jpg" alt="Top 25 NCAA Basketball Teams" class="cb25">
+                <div class="b1-title">Rep<br>Your<br>Team<br>
+                    <div class="subtitle1">Everything you'll need for their epic title run</div>
+                    <div class="fan-gear"><a href="#">Shop Fan Gear</a></div>
+                </div>
+            </div>
+            <div class="b2">
+                <div class="grid1">Past Meets Present
+                    <div class="grid1-button1"><a href="#">Shop Vapormax 97</a></div>
+                    <div class="grid1-button2"><a href="#">Shop All Vapormax</a></div>
+                </div>
+
+                <div class="grid2">Instant Go
+                    <div class="grid2-button1"><a href="#">Shop Nike Epic React</a></div>
+                </div>
+            </div>
+            <h3 class="hot-title">This Week's Hot Air</h3>
+            <div class="hot">
+                <div class="hot1">
+                    <a href="#" class="hot-text"></a>
+               </div>
+                <p>Shoe 1</p>
+                <div class="hot2">
+                    <a href="#" class="hot-text"></a>                   
+                </div>
+                <p>Shoe 2</p>
+                <div class="hot3">
+                    <a href="#" class="hot-text"></a>                  
+                </div>
+                <p>Shoe 3</p>
+            </div>
+
+            <div class="baby">
+                <div class="baby-wording"><h2 class="baby-title">Introducing the Baby Shop</h2>
+                    <span>Everything you need for kids wearing sizes 0 months to 6 years</span>
+                    <div class="baby-button1"><a href="#">Shop Boys</a></div>
+                    <div class="baby-button2"><a href="#">Shop Girls</a></div>
+                </div>
+            </div>
+
+            <div class="react1">
+                <div class="react1-wording"><h2 class="react1-title">Going Fast</h2>
+                    <span>Catch these Nike Epic React colors before they're gone forever.</span>
+                    <div class="react1-button1"><a href="#">Shop Women's</a></div>
+                    <div class="react1-button2"><a href="#">Shop Kids'</a></div>
+                </div>
+            </div>
+
+            <div class="react2">
+                <div class="react2-wording"><h2 class="react2-title">More React Coming Soon</h2>
+                    <span>Get notified when more Nike Epic Reacts arrive.</span>
+                    <div class="react2-button1"><a href="#">Notify Me</a></div>
+                    <div class="react2-button2"><a href="#">Learn More</a></div>
+                </div>
+            </div>
+
+        </div> <!--content-area-->
+        <!--
+        <div class="nav-list">
+          <h3>Icons</h3>
+            <ul>
+                <li>Air Force 1</li>
+                <li>VaporMax</li>
+                <li>Air Max 90</li>    
+                <li>Air Max 95</li>
+                <div class="dropdown">
+                    <img src="plus-sign.png" alt="Plus Sign" class="psign">
+                    <div class="dropdown-content">
+                        <div><a href="#">Air Max 97</a></div> 
+                        <div><a href="#">Air Max 270</a></div> 
+                        <div><a href="#">Epic React</a></div> 
+                    </div>
+                </div>        
+            </ul>  
+        </div>
+        <div class="nav-list">
+            <h3>Shoes</h3>
+            <ul>
+                <li>Air Force 1</li>
+                <li>VaporMax</li>
+                <li>Air Max 90</li>    
+                <li>Air Max 95</li>
+                <div><img src="plus-sign.png" alt="Plus Sign" class="psign">
+                    <ul>
+                        <li class="plus"><a href="">Air Max 97</a></li>
+                        <li class="plus">Air Max 270</li>
+                        <li class="plus">Epic React</li>
+                    </ul>
+                </div>
+            </ul>  
+        </div>
+        <div class="nav-list">
+            <h3>Kids</h3>
+                <ul>
+                    <li>Air Force 1</li>
+                    <li>VaporMax</li>
+                    <li>Air Max 90</li>    
+                    <li>Air Max 95</li>
+                    <div><img src="plus-sign.png" alt="Plus Sign" class="psign">
+                        <ul>
+                            <li class="plus"><a href="">Air Max 97</a></li>
+                            <li class="plus">Air Max 270</li>
+                            <li class="plus">Epic React</li>
+                        </ul>            
+                    </div>
+                </ul>
+        </div>
+        <div class="nav-list">
+            <h3>Featured</h3>  
+                <ul>
+                    <li>Air Force 1</li>
+                    <li>VaporMax</li>
+                    <li>Air Max 90</li>    
+                    <li>Air Max 95</li>
+                    <div><img src="plus-sign.png" alt="Plus Sign" class="psign">
+                        <ul>
+                            <li class="plus"><a href="">Air Max 97</a></li>
+                            <li class="plus">Air Max 270</li>
+                            <li class="plus">Epic React</li>
+                        </ul>
+                    </div>
+
+                </ul>
+        </div>
+        -->
+    </div>
+    <!--wrap-->
+    <div class="pre-footer">
+        <div class="sm">
+            <h4>Connect With Us</h4>
+            <span><a href="#"><img src="twit-icon.png" alt="Twitter" title="Twitter" class="social"></a></span>
+            <span><a href="#"><img src="fb-icon.png" alt="Facebook" title="Facebook" class="social"></a></span>
+            <span><a href="#"><img src="yt-icon.png" alt="Youtube" title="Youtube" class="social"></a></span>
+            <span><a href="#"><img src="ig-icon.png" alt="Instagram" title="Instagram" class="social"></a></span>
+
+        </div>
+
+        <div class="qlinks">
+            <div><a href="#" class="qlink">Gift Cards</a></div>
+            <div><a href="#" class="qlink">Student Discount</a></div>
+            <div><a href="#" class="qlink">Find a Store</a></div>
+            <div><a href="#" class="qlink">Sign Up For Email</a></div>
+            <div><a href="#" class="qlink">Become a Member</a></div>
+            <div><a href="#" class="qlink">Site FeedBack</a></div>
+        </div>
+        <div class="help cf">
+            <a href="#">
+                <h3 class="help-title"><a href="#">Get Help</a></h3>
+            </a>
+            <div><a href="#" class="h-link">Orders</a></div>
+            <div><a href="#" class="h-link">Shipping/Delivery</a></div>
+            <div><a href="#" class="h-link">Returns</a></div>
+            <div><a href="#" class="h-link">Payment Options</a></div>
+            <div><a href="#" class="h-link">Contact Us</a></div>
+        </div>
+        <div class="about cf">
+            <a href="#">
+                <h3 class="about-title"><a href="#">About Nike</a></h3>
+            </a>
+            <div><a href="#" class="a-link">News</a></div>
+            <div><a href="#" class="a-link">Careers</a></div>
+            <div><a href="#" class="a-link">Converse</a></div>
+            <div><a href="#" class="a-link">Investors</a></div>
+            <div><a href="#" class="a-link">Innovation</a></div>
+
+        </div>
+    </div>
+
+    <footer class="main-footer cf">
+        <h4 class="footer-wording"> &copy; Billie Barnett 2018 | Keep On Developing | Sample NIKE Mobile Site Landing Page</h4><br>
+        <span class="legal"><a href="#">Guides</a></span>
+        <span class="legal"><a href="#">Terms of Use</a></span>
+        <span class="legal"><a href="#">Nike Privacy Policy</a></span>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

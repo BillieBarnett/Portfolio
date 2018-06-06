@@ -1,0 +1,563 @@
+/* ------------------------Universal Styling -------------------------- */
+
+* {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* --------------------------- Header -------------------------- */
+
+.swoosh {
+    width: 4em;
+    text-align: left;
+    margin-left: 1em;
+}
+
+.login {
+    float: right;
+    padding: .5em .5em 0 0;
+}
+
+.cart {
+    float: right;
+    width: 2em;
+    padding: .5em 1em 0 0;
+}
+
+.search-container {
+    float: right;
+}
+
+.search-container input[type=text] {
+    padding: 6px 6px 9px 6px;
+    font-size: 17px;
+    border: 1px solid #000;
+    width: 8.01em;
+}
+
+.search-container button {
+    float: right;
+    padding: 16px 10px;
+    margin-right: 0;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background: #ccc;
+}
+
+.pre-header-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0;
+}
+
+.pre-header-grid>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.item1 {
+    border: 1px lightgray solid;
+}
+
+.item2 {
+    border-right: 1px lightgray solid;
+    border-top: 1px lightgray solid;
+    border-bottom: 1px lightgray solid;
+}
+
+.item3 {
+    border-left: 1px lightgray solid;
+    border-right: 1px lightgray solid;
+}
+
+.item4 {
+    border-right: 1px lightgray solid;
+}
+
+.shipping {
+    text-align: center;
+    background-color: rgba(241, 239, 239, 0.8);
+    padding: 10px 3px;
+    border-top: 1px solid rgb(88, 88, 88);
+    border-bottom: 1px solid rgb(88, 88, 88);
+}
+
+.ship {
+    width: 1.5em;
+}
+
+
+/* --------------------------- Navigation -------------------------- */
+
+.dropdown {
+    float: left;
+    margin: 0;
+}
+
+.dropdown dt {
+    width: 10%;
+    border: 1px solid #9ac1c9;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dropdown dd {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    display: none;
+    z-index: 200;
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#one-ddheader {
+    width: 45px;
+    text-align: center;
+}
+
+.dropdown ul {
+    border: 1px solid #9ac1c9;
+    list-style: none;
+    border-top: none;
+    margin: 0;
+}
+
+.dropdown li {
+    display: inline;
+    text-align: center;
+}
+
+.dropdown a,
+.dropdown a:active,
+.dropdown a:visited {
+    display: block;
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+    background: #eaf0f2;
+    width: 100px;
+}
+
+.dropdown a:hover {
+    background: #d9e1e4;
+    color: #000;
+}
+
+.dropdown .nav-separator {
+    border-bottom: 1px solid #b9d6dc;
+}
+
+
+/* ============================== Content ============================= */
+
+.content-container {
+    padding: 0;
+    margin: 0;
+}
+
+.b1 {
+    background: url("bball-court.png");
+    background-repeat: no-repeat;
+    height: 21em;
+    background-size: 70em 40em;
+    position: relative;
+}
+
+img.cb25 {
+    opacity: .2;
+    height: 21em;
+}
+
+.b1-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: .1em .5em 0 .25em;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.subtitle1 {
+    font-size: 14px;
+}
+
+.fan-gear {
+    border: 1px black solid;
+    background: #000;
+    padding: 1em .5em;
+    margin-top: .25em;
+    font-size: 12px;
+    width: 8em;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5%;
+}
+
+.fan-gear a {
+    color: #fff;
+}
+
+.b2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: .5em;
+    background-color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.grid1 {
+    background-image: url("vapormax.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10em 0;
+    width: 100%;
+}
+
+.grid1-button1,
+.grid1-button2 {
+    border: 1px black solid;
+    background: #fff;
+    padding: .5em .5em;
+    margin-top: 1em;
+    font-size: 12px;
+    width: 7em;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5%;
+}
+
+.grid2 {
+    background-image: url("epic-react.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10em 0;
+    width: 100%;
+}
+
+.grid2-button1 {
+    border: 1px black solid;
+    background: #fff;
+    padding: .5em .5em;
+    margin-top: 1em;
+    font-size: 12px;
+    width: 7em;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5%;
+}
+
+/* --------------------------- Shoe Gallery -------------------------- */
+
+
+.hot-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hot {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.hot1 {
+    background-image: url("shoe2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.hot2 {
+    background-image: url("shoe3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.hot3 {
+    background-image: url("shoe4.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 1em;
+}
+
+.hot-text {
+    text-align: center;
+}
+
+/* --------------------------- Picture Gallery -------------------------- */
+
+
+.baby {
+    background-image: url("nike-baby.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+}
+
+.baby-title {
+    text-transform: uppercase;
+}
+
+.baby-wording {
+    padding: 7em 0 0 1em;
+}
+
+.baby-button1,
+.baby-button2 {
+    border: 1px black solid;
+    background: #fff;
+    padding: .9em .5em;
+    margin-top: 1em;
+    font-size: 12px;
+    width: 7em;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5%;
+    
+}
+
+.react1 {
+    background-image: url("react1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin:0;
+}
+
+.react1-wording {
+    padding: 7em 0 0 1em;
+    color: #fff;
+}
+
+.react2 {
+    background-image: url("react2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+}
+
+.react2-wording {
+    padding: 7em 0 0 1em;
+    color: #fff;
+}
+
+.react1-button1,
+.react1-button2,
+.react2-button1,
+.react2-button2 {
+    border: 1px black solid;
+    background: #fff;
+    padding: .9em .5em;
+    margin-top: 1em;
+    font-size: 12px;
+    width: 7em;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5%;
+    
+}
+
+/* --------------------------- Nav List -------------------------- */
+
+
+.nav-list {
+    margin-top: .5em;
+    text-align: center;
+}
+
+.nav-list li {
+    list-style-type: none;
+}
+
+.psign {
+    width: 1.5em;
+    padding: 0;
+}
+
+.dropdown {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* --------------------------- Footer -------------------------- */
+
+.pre-footer {
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #000;
+    background-color: rgb(26, 26, 26);
+    color: #fff;
+}
+
+.sm {
+    padding: 1em 0;
+}
+
+.social {
+    width: 2em;
+    padding: .5em .5em 0 .5em;
+}
+
+.qlinks-head {
+    padding: 0 0 0 3px;
+    text-decoration: underline;
+}
+
+.qlinks {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.qlinks a {
+    color: #fff;
+}
+
+.qlinks a:hover {
+    color: #9ac1c9;
+}
+
+.help {
+    text-transform: uppercase;
+    float: left;
+    padding: 1.5em 0;
+    text-align: left;
+}
+
+.help-title,
+.about-title {
+    text-decoration: underline;
+}
+
+.help-title a,
+.about-title a {
+    color: #fff;
+}
+
+.help-title a:hover,
+.about-title a:hover {
+    color: #9ac1c9;
+}
+
+.help div a {
+    color: rgb(131, 130, 130);
+}
+
+.help div a:hover {
+    color: #fff;
+}
+
+.about {
+    text-transform: uppercase;
+    float: right;
+    padding: 1.5em 0;
+    text-align: right;
+}
+
+.about div a {
+    color: rgb(131, 130, 130);
+}
+
+.about div a:hover {
+    color: #fff;
+}
+
+.main-footer {
+    padding: 1em 0;
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+    color: #fff;
+}
+
+footer a {
+    color: rgb(131, 130, 130);
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.footer-wording {
+    display: inline-block;
+    padding: 0 .5em;
+    border-top: 1px solid #fff;
+}
+
+.legal {
+    text-decoration: underline;
+    font-size: 12px;
+    padding: 0 1em;
+    margin: 0;
+}
+
+
+/* --------------------------- Media Queries -------------------------- */
+
+.wrap {
+    min-height: calc(100vh - 70px);
+}
+
+.cf::after {
+    content: "";
+    display: table;
+    clear: both;
+}
