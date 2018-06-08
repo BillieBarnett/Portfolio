@@ -8,6 +8,38 @@
     <meta name="Portfolio" content="An interactive guide in getting to know Billie Barnett and his capabilities.">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="main.css">
+    <link rel='stylesheet' href="fullcalendar-3.9.0/fullcalendar.min.css">
+    <script src="fullcalendar-3.9.0/lib/jquery.min.js"></script>
+    <script src="fullcalendar-3.9.0/lib/moment.min.js"></script>
+    <script src="fullcalendar-3.9.0/fullcalendar.min.js"></script>
+    <script src="fullcalendar-3.9.0/gcal.min.js"></script>
+    <script>
+        $(function() {
+
+            // page is now ready, initialize the calendar...
+
+            $('#calendar').fullCalendar({
+            // put your options and callbacks here
+            })
+
+        });
+    </script>
+    // Brings the calendar onto the page
+
+    <script>
+
+        $(function() {
+        $('#calendar').fullCalendar({
+            googleCalendarApiKey: 'AIzaSyDj2JgN1hbk3d38ZTehpS1l4FXqeCnmRzU',
+            events: {
+            googleCalendarId: 'https://calendar.google.com/calendar/embed?src=bbarnett724%40gmail.com&ctz=America%2FNew_York'
+            }
+        });
+        });
+    
+    </script>
+    // Brings events into the calendar
+
 </head>
 
 <body>
@@ -44,6 +76,8 @@
                 </div>
 
             </div>
+            <h3 class="cal-header">Events Calendar</h3>
+            <div id="calendar"></div>
         </div>
         <!--container-->
 
@@ -57,6 +91,7 @@
         <a href="https://twitter.com/_BlackThought_"><img src="in-icon.png" alt="Linkedin Logo" class="social-media" title="LinkedIn"></a>
     </footer>
     <!--.main-footer-->
+
     <script src="main.js"></script>
 </body>
 
