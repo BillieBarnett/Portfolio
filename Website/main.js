@@ -41,4 +41,22 @@ function carousel() {
     setTimeout(carousel, 2500);
 }
 
-//Slidshow Start//
+
+var myIndex2 = 0;
+carousel2();
+
+function carousel2() {
+    var i;
+    var x = document.getElementsByClassName("cpu");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    myIndex2++;
+    if (myIndex2 > x.length) { myIndex2 = 1 }
+    x[myIndex2 - 1].style.display = "block";
+    setTimeout(carousel2, 2500);
+}
+
+//Slidshow End//
+
+
